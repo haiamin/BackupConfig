@@ -3,7 +3,7 @@
 # Author:	Niels Friis-Hansen
 # Version:	1.0
 #
-# Revisions:	1.0	First draft version
+# Revisions:	1.1	First version
 #
 # Descripion:
 # Python script that backs up the configuration of Cisco IOS devices
@@ -20,9 +20,6 @@ from time import strftime
 
 # Define the names of files used
 CSVDATA_FILENAME = 'devices.txt'
-
-# Define list to hold config commands
-config_cmds = []
 
 # Record start-time
 start_time = datetime.now()
